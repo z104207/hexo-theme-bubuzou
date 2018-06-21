@@ -44,6 +44,7 @@ $ npm install -g hexo-cli
 hexo里每个不同的主题所依赖的包都不尽相同。安装的默认主题已经包含了一些依赖包，但是对于`bubuzou`这个主题来说是不够的，所以还需要安装以下几个:
 
 ```
+    cd d://Blog
     npm install --save hexo-renderer-jade hexo-generator-feed hexo-generator-sitemap hexo-browsersync hexo-generator-archive
     npm install --save hexo-deployer-git hexo-generator-json-content hexo-generator-search
 ```
